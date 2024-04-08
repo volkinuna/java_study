@@ -13,6 +13,6 @@ public class AdvancedFor {
         }
 
         double avg = (double) sum / scores.length;
-        System.out.println("평균점수 : " + avg);
+        System.out.println("평균점수 : " + avg); //평균점수 : 86.0
     }
 }

@@ -11,6 +11,6 @@ public class SumFrom1To100 {
             i++;
         }
 
-        System.out.println("1~100까지의 합 : " + sum);
+        System.out.println("1~100까지의 합 : " + sum); //5050
     }
 }

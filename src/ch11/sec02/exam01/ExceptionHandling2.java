@@ -9,7 +9,7 @@ public class ExceptionHandling2 {
     }
 
     public static void printLength(String data) {
-        // 예외처리 코드 작석
+        // 예외처리 코드 작성
         try {
             int result = data.length();
             System.out.println("문자 수 : " + result);

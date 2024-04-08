@@ -7,7 +7,7 @@ public class LogicalOperator {
 
         // 65 ~ 90 : 대문자 알파벳 유니코드
         if ((65 <= charCode) & (charCode <= 90)) {
-            System.out.println("대문자이군요.");
+            System.out.println("대문자이군요."); //<-출력
         }
 
         // 97 ~ 122 : 소문자 알파벳 유니코드
@@ -20,16 +20,16 @@ public class LogicalOperator {
             System.out.println("0~9사이의 숫자이군요.");
         }
 
-        System.out.println((int) 'A');
-        System.out.println((int) 'a');
-        System.out.println((int) '0');
+        System.out.println((int) 'A'); //65
+        System.out.println((int) 'a'); //97
+        System.out.println((int) '0'); //48
 
         System.out.println("===================");
 
         int value = 6;
 
         if ((value % 2 == 0) | (value % 3 == 0)) {
-            System.out.println("2 또는 3의 배수");
+            System.out.println("2 또는 3의 배수"); //<-출력
         }
 
         if ((value % 8 == 0) || (value % 9 ==0)) {

@@ -1,7 +1,6 @@
 package ch13.sec05;
 
-public class Person {
-}
+public class Person {}
 
 class Worker extends Person {}
 
